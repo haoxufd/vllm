@@ -1,7 +1,7 @@
 ray==2.9.1
-torch==2.0.1
-transformers==4.38.2  # Required for StarCoder2 & Llava.
-triton==2.0.0
+torch==2.1.0
+transformers==4.40.1  # Required for StarCoder2 & Llava.
+triton==2.1.0
 xformers==0.0.22  # the latest version, since 0.0.22.post7 requires torch>=2.1.0
 #
 ninja  # For faster builds.
